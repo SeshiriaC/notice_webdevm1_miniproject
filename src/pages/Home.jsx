@@ -4,14 +4,16 @@ import EventCard from '../component/EventCard';
 
 
 function Home() {
-    const footer = (
+    const header = (
         <>
             <Menu></Menu>    
         </>
     );
     return (
         <div >
-            {footer}
+            {header}
+            <EventCard></EventCard>
+            <EventCard></EventCard>
             <EventCard></EventCard>
         </div>
     )

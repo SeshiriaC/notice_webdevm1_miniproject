@@ -1,9 +1,9 @@
 import { Menubar } from "primereact/menubar";
 import React from "react";
-import logo from "../images/logo.png";
+import logo from "../images/logo.png";       
 
 function Menu() {
-  const end = <img alt="logo" src={logo} height="30" className="mr-2"></img>;
+  const end = <img alt="logo" src={logo} height="30" className="mr-1"></img>;
 
   const items = [
     {

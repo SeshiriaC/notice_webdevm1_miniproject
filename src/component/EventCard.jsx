@@ -1,21 +1,43 @@
-import React from 'react'; 
-import { Fieldset } from 'primereact/fieldset';
+import { Card } from "primereact/card";
+import { Button } from "primereact/button";
+import { Accordion, AccordionTab } from "primereact/accordion";
 
 function EventCard() {
-    return (
-        <div className="card">
-            <Fieldset legend="Avant dernier évènement" toggleable>
-                <p className="m-0">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </Fieldset>
+  const header = (
+    <img
+      alt="Card"
+      src="https://primefaces.org/cdn/primereact/images/usercard.png"
+    />
+  );
+
+  const card1 = (
+    <div className="card">
+      <Card
+        title="Advanced Card"
+        subTitle="Card subtitle"
+        header={header}
+        className="md:w-25rem"
+      >
+        <div className="card ">
+          <Accordion activeIndex={1}>
+            <AccordionTab header="Plus d'informations">
+              <p className="m-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </AccordionTab>
+          </Accordion>
         </div>
-    )
+      </Card>
+    </div>
+  );
+
+  return <div className="card m-2 my-5">{card1}</div>;
 }
 
-
-export default EventCard
-        
+export default EventCard;

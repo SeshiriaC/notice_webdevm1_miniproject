@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Menu from "../component/Menu";
+import EventCard from '../component/EventCard';
 
 function Evenement() {
   const [label, setLabel] = useState("Dashboard");
@@ -11,14 +12,15 @@ function Evenement() {
   const changeLabel = (val) => {
     setLabel(val);
   };
-  const footer = (
+  const header = (
     <>
       <Menu></Menu>
     </>
   );
   return (
     <div>
-      {footer}
+      {header}
+      <EventCard></EventCard>
       <h1>EVENT</h1>
     </div>
   );

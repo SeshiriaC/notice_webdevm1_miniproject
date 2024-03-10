@@ -5,7 +5,9 @@ function NotFound() {
   return (
     <div>
         <Menu />
-        <h1>NotFound</h1>
+        <div className='align-item-center'>
+          <h1>NotFound</h1>
+        </div>
     </div>
   )
 }

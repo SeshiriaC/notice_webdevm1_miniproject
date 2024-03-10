@@ -1,5 +1,4 @@
 import { Card } from "primereact/card";
-import { Button } from "primereact/button";
 import { Accordion, AccordionTab } from "primereact/accordion";
 
 function EventCard() {

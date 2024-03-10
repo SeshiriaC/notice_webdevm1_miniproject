@@ -3,7 +3,9 @@ import React from "react";
 import logo from "../images/logo.png";       
 
 function Menu() {
-  const end = <img alt="logo" src={logo} height="30" className="mr-1"></img>;
+  const end = <a href="/acceuil">
+    <img alt="logo" src={logo} height="30" className="mr-1"></img>
+  </a>;
 
   const items = [
     {
@@ -28,7 +30,7 @@ function Menu() {
     },
   ];
   return (
-    <div className="card">
+    <div className="card sm:">
       <Menubar model={items} end={end} />
     </div>
   );

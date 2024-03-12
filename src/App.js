@@ -20,7 +20,6 @@ function App() {
     setEvent(12)
   }
   
-  
 
   return (
     <div className="App">

@@ -36,7 +36,7 @@ function EventCard() {
     </div>
   );
 
-  return <div className="card m-2 my-5">{card1}</div>;
+  return <div className="card m-2 my-5 flex">{card1}</div>;
 }
 
 export default EventCard;

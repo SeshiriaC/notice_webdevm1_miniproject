@@ -29,8 +29,9 @@ function Menu() {
       url: "/contact",
     },
   ];
+
   return (
-    <div className="card sm:">
+    <div className="card">
       <Menubar model={items} end={end} />
     </div>
   );

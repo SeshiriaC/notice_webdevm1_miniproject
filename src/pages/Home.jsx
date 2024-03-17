@@ -17,20 +17,17 @@ function Home() {
 
   return (
     <>
-      <div>{header}</div>
-      <div className="flex justify-content-around flex-wrap">
-        <div className="flex align-items-center justify-content-center w-4rem h-4rem border-round m-2">
-          <EventCard></EventCard>
-        </div>
-        <div className="flex align-items-center justify-content-center w-4rem h-4rem border-round m-2">
-          <EventCard></EventCard>
-        </div>
-        <div className="flex align-items-center justify-content-center w-4rem h-4rem font-bold border-round m-2">
-          <EventCard></EventCard>
-        </div>
-        <div className="absolute md:bottom-0 flex align-items-center justify-content-center w-4rem h-4rem">
-          {foot}
-        </div>
+      <div>
+        {header}
+      </div>
+      <div className="mx-3 my-3">
+        <EventCard></EventCard>
+      </div>
+      <div className="mx-3 my-3">
+        <EventCard></EventCard>
+      </div>
+      <div>
+        {foot}
       </div>
     </>
   );

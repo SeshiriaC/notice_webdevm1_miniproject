@@ -12,3 +12,13 @@ code {
     monospace;
 }
 
+.responsive {
+  width: 25%;
+  height: auto;
+}
+
+.footerLogo{
+  width: 15vw;
+  height: auto;
+}
+

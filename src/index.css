@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -17,6 +19,17 @@ code {
   height: auto;
 }
 
+/* Not found page section*/
+#notFoundButton{
+  background-color: aliceblue;
+  color: black;
+  border-color: aquamarine;
+}
+
+#notFoundButton:hover{
+  background-color: rgb(176, 246, 255, 0.7);
+}
+
 /*Footer section*/
 .footer{
   background-color: rgb(9, 3, 36);
@@ -26,34 +39,15 @@ code {
   justify-content: center;
   margin-bottom: 0;
   font-size:75%;
-  font-family: sans-serif;
+  font-family: url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap') sans-serif;
+  bottom: 0;
 }
 
 .footer #container{
   display: flex;
   justify-content: space-around;
   margin-inline: 15vw;
-  padding: 5vh;
-}
-
-.footer a:link {
-  text-decoration: none;
-  color: azure;
-}
-
-.footer a:visited {
-  text-decoration: none;
-  color: azure;
-}
-
-.footer a:hover{
-  text-decoration: none;
-  color:aqua;
-}
-
-.footer a:active {
-  text-decoration: none;
-  color: azure;
+  padding: 3vh;
 }
 
 #footerLogo{
@@ -82,16 +76,30 @@ code {
   color: azure;
 }
 
-
-/* Not found page section*/
-#notFoundButton{
-  background-color: aliceblue;
-  color: black;
-  border-color: aquamarine;
+.footerContainer{
+  display:ruby;
+  justify-items: center;
 }
 
-#notFoundButton:hover{
-  background-color: rgb(176, 246, 255, 0.7);
+#copyright{
+  color: azure;
+  position: relative;
+  background-color: black;
+  padding-inline: 41.5%;
 }
 
+/*other logo*/
+#contactLogo{
+  width: 30px;
+  height: auto;
+}
 
+/*contactLogo Panel*/
+#contactLogoPanel{
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+#panel{
+  margin-inline: 2vw;
+}

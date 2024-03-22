@@ -11,6 +11,7 @@ import {
 import NotFound from './pages/NotFound';
 import Home from './pages/Home';
 import Evenement from './pages/Evenement'
+import Source from './component/Source';
 
 const router = createBrowserRouter([
   {
@@ -23,12 +24,16 @@ const router = createBrowserRouter([
   },
   {
     path: '/evenements',
-    element: <Evenement/>
+    element: <Evenement/>,
   }, 
   {
     path: "*",
-    element: <NotFound/>
+    element: <NotFound/>,
 
+  },
+  {
+    path: "/sources",
+    element: <Source/>,
   },
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,10 +1,10 @@
 import { Menubar } from "primereact/menubar";
 import React from "react";
-import logo from "../images/logo.png";       
+import noticeIcon from "../images/notice-icon-v2-noir.png";       
 
 function Menu() {
   const end = <a href="/acceuil">
-    <img alt="logo" src={logo} height="30" className="mr-1"></img>
+    <img alt="logo" src={noticeIcon} height="30" className="mr-1"></img>
   </a>;
 
   const items = [

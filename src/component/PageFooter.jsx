@@ -3,16 +3,30 @@ import image from "../images/logo.png";
 
 function PageFooter() {
   return (
-    <div className="flex justify-content-center flex-wrap">
-      <div className="flex-1 p-4">
-        <a href="/acceuil">
-          <img src={image} alt="Notice logo" className="footerLogo" />
-        </a>
-      </div>
-      <div>
-        <p className="flex-1 p-4 mx-4">
-          &copy; 2024 NOTICE. Tous droits réservés.
-        </p>
+    <div class="footer">
+      <div id="container">
+        <div id="leftfooter">
+          <a href="/acceuil">
+            <img src={image} alt="Notice logo" id="footerLogo" />
+          </a>
+          <div id="copyright">
+            <p>Copyright &copy; 2024 Tous droits réservés</p>
+          </div>
+        </div>
+        <div id="middlefooter">
+          <h1>A propos</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius odit
+            esse odio recusandae laborum repellendus mollitia dolore pariatur
+            omnis inventore enim aliquid hic quae neque, officiis temporibus
+            quo, voluptas sapiente.
+          </p>
+        </div>
+        <div id="rightfooter">
+          <a href="/Sources">
+            <h1>Sources</h1>
+          </a>
+        </div>
       </div>
     </div>
   );

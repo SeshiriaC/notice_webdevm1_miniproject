@@ -16,7 +16,7 @@ function Home() {
   );
 
   return (
-    <>
+    <div id="pageContainer">
       <div>
         {header}
       </div>
@@ -29,7 +29,7 @@ function Home() {
       <div>
         {foot}
       </div>
-    </>
+    </div>
   );
 }
 

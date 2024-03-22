@@ -17,8 +17,81 @@ code {
   height: auto;
 }
 
-.footerLogo{
+/*Footer section*/
+.footer{
+  background-color: rgb(9, 3, 36);
+  display:list-item;
+  align-content: space-around;
+  justify-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  font-size:75%;
+  font-family: sans-serif;
+}
+
+.footer #container{
+  display: flex;
+  justify-content: space-around;
+  margin-inline: 15vw;
+  padding: 5vh;
+}
+
+.footer a:link {
+  text-decoration: none;
+  color: azure;
+}
+
+.footer a:visited {
+  text-decoration: none;
+  color: azure;
+}
+
+.footer a:hover{
+  text-decoration: none;
+  color:aqua;
+}
+
+.footer a:active {
+  text-decoration: none;
+  color: azure;
+}
+
+#footerLogo{
   width: 15vw;
   height: auto;
 }
+
+#leftfooter{
+  position: relative;
+  justify-self: center;
+  padding-top: 5px;
+}
+
+#leftfooter p{
+  color: aliceblue;
+  font-family: 'Segoe UI';
+  font-size: 90%;
+}
+
+#middlefooter{
+  margin-inline: 5vw;
+
+}
+
+#middlefooter p,h1{
+  color: azure;
+}
+
+
+/* Not found page section*/
+#notFoundButton{
+  background-color: aliceblue;
+  color: black;
+  border-color: aquamarine;
+}
+
+#notFoundButton:hover{
+  background-color: rgb(176, 246, 255, 0.7);
+}
+
 

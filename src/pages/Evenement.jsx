@@ -1,5 +1,6 @@
 import Menu from "../component/Menu";
 import EventCard from '../component/EventCard';
+import PageFooter from "../component/PageFooter";
 
 function Evenement() {
 
@@ -13,6 +14,7 @@ function Evenement() {
       {header}
       <EventCard></EventCard>
       <h1>EVENT</h1>
+      <PageFooter></PageFooter>
     </div>
   );
 }

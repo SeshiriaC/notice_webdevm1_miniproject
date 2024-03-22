@@ -1,2 +1,22 @@
+--------------------------------------Logo---------------------------------
+
 Pin:
 <a href="https://www.flaticon.com/free-icons/location-pin" title="location pin icons">Location pin icons created by Smashicons - Flaticon</a>
+
+Not found:
+<a href="https://www.freepik.com/free-vector/page-found-with-people-connecting-plug-concept-illustration_7906228.htm#fromView=search&page=1&position=39&uuid=9d30ff99-0fd3-4ed0-b809-733b44660a14">Image by storyset on Freepik</a>
+
+Facebook:
+<a href="https://www.flaticon.com/fr/icones-gratuites/facebook" title="facebook icônes">Facebook icônes créées par Freepik - Flaticon</a>
+
+LinkedIn:
+<a href="https://www.flaticon.com/fr/icones-gratuites/linkedin" title="linkedin icônes">Linkedin icônes créées par Freepik - Flaticon</a>
+
+Github:
+<a href="https://www.flaticon.com/fr/icones-gratuites/github" title="github icônes">Github icônes créées par Pixel perfect - Flaticon</a>
+
+
+
+
+
+

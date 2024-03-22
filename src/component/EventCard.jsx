@@ -8,7 +8,7 @@ function EventCard() {
   const [visible, setVisible] = useState(false);
   return (
     <div className="card">
-      <Card title="Simple Card">
+      <Card title="Evènement 1">
         <div className="inline-flex m-0">
           <img src={image} alt="test" class="responsive" />
           <div>
@@ -20,12 +20,13 @@ function EventCard() {
             </p>
             <div className="card flex justify-content-center">
               <Button
-                label="Show"
+                label="Plus d'information"
                 icon="pi pi-external-link"
+                color="white"
                 onClick={() => setVisible(true)}
               />
               <Dialog
-                header="Header"
+                header="Evènement 1"
                 visible={visible}
                 style={{ width: "75vw" }}
                 onHide={() => setVisible(false)}

@@ -31,8 +31,8 @@ function Menu() {
   ];
 
   return (
-    <div className="card">
-      <Menubar model={items} end={end} />
+    <div id="menuBar">
+      <Menubar model={items} end={end} className="border-noround"/>
     </div>
   );
 }

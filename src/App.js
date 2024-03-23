@@ -17,7 +17,7 @@ function App() {
   }, [])
 
   const getEvent = () => {
-    setEvent(12)
+    setEvent()
   }
   
 

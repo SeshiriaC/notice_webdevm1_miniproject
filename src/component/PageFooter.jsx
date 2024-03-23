@@ -24,8 +24,8 @@ function PageFooter() {
             </p>
           </div>
           <div id="rightfooter">
-            <h1>Nous</h1>
-            <div id="contactLogoPanel" className="pb-3">
+            <h1>Contact Me</h1>
+            <div id="contactLogoPanel" className="pb-4">
               <div>
                 <Link to="https://www.linkedin.com/in/hery-nirina-cecilia-razafimandimby">
                   <img
@@ -58,9 +58,7 @@ function PageFooter() {
             </div>
           </div>
         </div>
-        <div id="copyright">
-          <p>Copyright &copy; 2024 Tous droits réservés</p>
-        </div>
+        <footer id="copyright">Copyright &copy; 2024 Tous droits réservés</footer>
       </div>
     </div>
   );

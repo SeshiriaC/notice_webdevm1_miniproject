@@ -24,7 +24,7 @@ function Home() {
         <EventCard></EventCard>
       </div>
       <div className="mx-3 my-3">
-        <EventCard></EventCard>
+        <EventCard header="Let's begin"></EventCard>
       </div>
       <div>
         {foot}

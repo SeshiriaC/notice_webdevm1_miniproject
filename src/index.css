@@ -16,9 +16,9 @@ code {
     monospace;
 }
 
-.responsive {
-  width: 25%;
-  height: auto;
+/*event card*/
+#paragraphScale{
+ background-color: indianred;
 }
 
 /* Not found page section*/
@@ -106,3 +106,4 @@ code {
 #panel{
   margin-inline: 2vw;
 }
+

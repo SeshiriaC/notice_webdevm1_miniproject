@@ -21,6 +21,17 @@ code {
  background-color: indianred;
 }
 
+#cardInfoButton{
+  background-color: rgb(240, 240, 240);
+  border-color: rgba(65, 65, 65, 0.6);
+  color: rgb(103, 110, 111);
+}
+
+#cardInfoButton:hover{
+  background-color: rgb(5, 4, 31);
+  color: aliceblue;
+}
+
 /* Not found page section*/
 #notFoundButton{
   background-color: aliceblue;
@@ -106,4 +117,6 @@ code {
 #panel{
   margin-inline: 2vw;
 }
+
+
 

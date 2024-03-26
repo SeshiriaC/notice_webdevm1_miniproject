@@ -6,7 +6,7 @@ import { Button } from "primereact/button";
 function EventCard(props) {
   const print = (
     <>
-      <img src={props.print} alt="Affiche de l'évènement" />
+      <img src={props.print} alt="Affiche de l'évènement" className="border-round-top" />
     </>
   );
 
@@ -16,16 +16,17 @@ function EventCard(props) {
     <div className="card">
       <Card
         title={props.header}
-        subTitle="event by NextG"
+        subTitle={props.subtitles}
         header={print}
-        className="my-5 mx-6 shadow-8 md:w-25rem"
+        className="my-5 shadow-8 w-200rem md:w-25rem"
       >
         <p className="m-2">{props.paragraph}</p>
         <div className="card flex justify-content-center m-2">
           <Button
             label="Détails"
-            icon="pi pi-external-link"
+            icon="pi pi-info-circle"
             onClick={() => setVisible(true)}
+            id="cardInfoButton"
           />
           <Dialog
             header={props.header}

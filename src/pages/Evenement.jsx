@@ -207,7 +207,7 @@ function Evenement() {
   return (
     <>
       <Menu></Menu>
-      <div className="flex flex-wrap gap-1 md:gap-4 xl:gap-8 align-items-center justify-content-center mx-2 my-0">
+      <div className="flex flex-wrap gap-1 md:gap-2 xl:gap-6 align-items-center justify-content-center mx-8 my-0">
       <div className="flex align-items-center justify-content-center fadeinleft animation-duration-1000">
           <EventCard 
           header="Today 2 Tommorow"
@@ -219,7 +219,7 @@ function Evenement() {
         </div>
         <div className="flex align-items-center justify-content-center fadeinright animation-duration-1000">
           <EventCard
-            header="Vision 2.0 0505"
+            header="Vision 2.0"
             print={vr1Print}
             paragraph={vr1Paragraph}
             details={vr1Details}

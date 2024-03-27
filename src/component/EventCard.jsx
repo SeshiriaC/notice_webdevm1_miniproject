@@ -18,7 +18,7 @@ function EventCard(props) {
         title={props.header}
         subTitle={props.subtitles}
         header={print}
-        className="my-5 shadow-8 w-200rem md:w-25rem"
+        className="my-5 shadow-8 md:w-15"
       >
         <p className="m-2">{props.paragraph}</p>
         <div className="card flex justify-content-center m-2">
